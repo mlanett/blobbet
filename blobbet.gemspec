@@ -5,6 +5,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Mark Lanett"]
   gem.email         = ["mark.lanett@gmail.com"]
   gem.description   = %q{Store attributes in a blob in ActiveRecord models}
+  gem.summary       = %q{Store attributes in a blob in ActiveRecord models}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)

@@ -5,11 +5,11 @@ require "json"
 module Blobbet
 
   module Meta
-    # @param options may include "in"
+    # @param options may include "blob"
     # @option in which blob to use for the attribute, default "extras"
     def blobbet( *attributes )
       opt = Hash === attributes.last ? attributes.pop : {}
-      bin = opt[:in] ? opt[:in].to_s : "extras"
+      bin = opt[:blob] ? opt[:blob].to_s : "extras"
       attributes.each do |attribute|
         name = attribute.to_s
         define_method( name.to_sym ) do
