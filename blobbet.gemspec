@@ -15,4 +15,5 @@ Gem::Specification.new do |gem|
   gem.version       = Blobbet::VERSION
 
   gem.add_dependency "activerecord"
+  gem.add_dependency "json"
 end

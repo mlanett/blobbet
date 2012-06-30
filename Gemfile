@@ -11,6 +11,7 @@ group :development, :test do
 end
 
 group :test do
+  gem "sqlite3"
   gem "ruby-debug19",   require: false
   gem "simplecov",      require: false
 end
