@@ -22,12 +22,12 @@ Include Blobbet into your model.
 Declare attributes using "blobbet". The default blob is "extras" but you may specify a different one.
 Use your attributes as usual.
 
-  class Gibblet < ActiveRecord::Base
-    include Blobbet
-    blobbet :size
-    blobbet :ratio, in: "stuff"
-    blobbet :city
-  end
+    class Gibblet < ActiveRecord::Base
+      include Blobbet
+      blobbet :size
+      blobbet :ratio, in: "stuff"
+      blobbet :city
+    end
 
 ## Contributing
 
