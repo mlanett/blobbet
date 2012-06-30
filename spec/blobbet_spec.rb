@@ -3,7 +3,7 @@ require "helper"
 class Gibblet < ActiveRecord::Base
   include Blobbet
   blobbet :size
-  blobbet :ratio, in: "stuff"
+  blobbet :ratio, blob: "stuff"
   blobbet :city
 end
 
